@@ -1,0 +1,114 @@
+body{background-image: url(22.jpg);
+    background-repeat: no-repeat;
+background-size: cover;
+}
+        
+.outer
+{height:600px;
+width:800px;
+
+    }
+.main
+{margin-left: 200px;
+width: 600px;
+    height: 600px;
+margin:0px 0px 0px 370px;
+    padding: inherit;
+
+        border: 8px solid black;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 5px;
+background-image: url(50.jpg);
+    background-repeat: no-repeat;
+background-size: cover;
+    box-shadow: 10px 10px grey;
+}
+.log{
+    text-align: center;
+    font-size: 45px;
+    text-shadow: 0 0 3px #00FF00, 0 0 5px #0000FF;
+    
+}.button2 {margin-top: 10px;
+    margin-left: 240px;
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 20px;
+    width: 150px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color:green;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 9px #999;
+}
+
+.button2:hover {background-color: brown}
+
+.button2:active {
+  background-color: blue;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}input[type=text], input[type=password] {
+    width: 45%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    font-size: 15px;
+    display: inline-block;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+}.l1{margin-left: 100px;
+    font-size: 20px;
+}
+#a
+{margin-left: 200px;  
+    font-size: 10px;
+}
+.h{display: inline;
+margin-left: 42px;}
+.i{display: inline;
+margin-left: 35px;}
+.j{display: inline;
+margin-left: 35px;}.button {
+  display: inline-block;
+  border-radius: 8px;
+  background-color: rebeccapurple;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 24px;
+  padding: 15px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -15px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
